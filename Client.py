@@ -9,4 +9,4 @@ class client():
         self.gender = gender
 
 def showAddress(self):
-    print("Endereço do cliente: " + self.address)
+    print("Nome completo do cliente: " + self.first_name + "" + self.last_name)
