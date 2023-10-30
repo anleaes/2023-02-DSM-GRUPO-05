@@ -3,5 +3,5 @@ class socialnetwork():
         self.name = name
         self.description = description
 
-def showname(self):
-    print("Nome: " + self.name)
+def showdescription(self):
+    print("Descrição: " + self.description)
