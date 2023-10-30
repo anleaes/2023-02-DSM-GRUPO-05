@@ -5,5 +5,7 @@ class Order:
         self._client = client
 
 
-    def getStatus(self):
-        print(self._status)
+    def showInfo(self):
+        print(self._client.nome + 'comprou por' + self._total_price + ' e o pedido está' + self._status )
+
+
