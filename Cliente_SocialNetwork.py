@@ -6,5 +6,5 @@ class cliente_socialnetwork():
         self.client = client
         self.socialnetwork = socialnetwork
 
-def showClient(self):
-    print("cliente: " + self.cliente)
+def showClient_network(self):
+    print("cliente e social network: " + self.cliente + "" + self.socialnetwork)
