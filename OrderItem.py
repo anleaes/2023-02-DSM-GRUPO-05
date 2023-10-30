@@ -5,6 +5,7 @@ class OrderItem:
         self._order = order
         self._product = product
 
-    def showOrderItemPrice(self):
-        totalPriceItem = self._quantity * self._unitary_price
-        print(self._product.showInfo() + 'preco : ' + totalPriceItem)
+    def showPercentageOfTotal(self):
+        totalpriceItem = self._quantity * self._unitary_price
+        percentage = (totalpriceItem * 100) / self._order.self._total_price()
+        print('o item ocupa' + percentage + ''%'da compra')
