@@ -3,8 +3,7 @@ class Category:
         self._id = id
         self._name = name
         self._description = description
-
-    def showCategory(self):
-        print('Nome: ' + self._name + 'Descricao: ' + self._description)
     
-    
+    def changeDescription(self, newDescription):
+        self._description = newDescription
+        print('essa e a nova descricao: ' + self._description)
