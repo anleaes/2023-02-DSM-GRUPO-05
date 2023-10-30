@@ -8,6 +8,5 @@ class produto(categoria):
         self.is_active = is_active
         self.category = category
         
-produto1 = produto("Sabonte", "Sabonete 25g", "01.01.01", "Sim", "Higiene") 
-produto2 = produto("Shampoo", "Head & Shoulders", "01.01.01", "Sim", "Higiene")
-produto2 = produto("Escova", "Generica", "01.01.01", "Sim", "Higiene")
+def showInfo():
+    self._category.metodoCategoria()
