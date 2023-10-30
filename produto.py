@@ -8,5 +8,4 @@ class produto(categoria):
         self.is_active = is_active
         self.category = category
         
-def showInfo():
-    self._category.metodoCategoria()
+
