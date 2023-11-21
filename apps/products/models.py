@@ -1,9 +1,5 @@
 from django.db import models
 from categories.models import Category
-<<<<<<< HEAD
-=======
-
->>>>>>> f29ae8a6d2cb0944981f99b341b3cc27aaeda441
 # Create your models here.
 
 class Product(models.Model):

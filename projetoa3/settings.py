@@ -34,16 +34,18 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'products.apps.ProductsConfig',
-    'categories.apps.CategoriesConfig',
-    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'socialnetworks.apps.SocialnetworksConfig',
+    'rest_framework',
+    'products.apps.ProductsConfig',
+    'categories.apps.CategoriesConfig',
+    'socialnetworks.apps.SocialnetworkConfig',
+    'clients.apps.ClientsConfig',
+    
 ]
 
 MIDDLEWARE = [
