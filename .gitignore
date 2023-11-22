@@ -1,0 +1,14 @@
+db.sqlite3
+projetoa3/__pycache__/*
+projetoa3/apps/categories/__pycache__/*
+projetoa3/apps/categories/migrations/*
+projetoa3/apps/categories/__pycache__/*
+projetoa3/apps/categories/migrations/*
+projetoa3/apps/products/__pycache__/*
+projetoa3/apps/products/migrations/*
+projetoa3/apps/socialnetworks/__pycache__/*
+projetoa3/apps/socialnetworks/migrations/*
+projetoa3/apps/clients/__pycache__/*
+projetoa3/apps/clients/migrations/*
+projetoa3/apps/orders/__pycache__/*
+projetoa3/apps/orders/migrations/*
