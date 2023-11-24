@@ -1,0 +1,6 @@
+db.sqlite3
+academia/__pycache__/*
+academia/apps/categories/__pycache__/*
+academia/apps/categories/migrations/*
+academia/apps/categories/__pycache__/*
+academia/apps/categories/migrations/*
