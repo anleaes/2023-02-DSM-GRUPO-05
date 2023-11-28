@@ -1,6 +1,6 @@
 db.sqlite3
 academia/__pycache__/*
-academia/apps/categories/__pycache__/*
-academia/apps/categories/migrations/*
+academia/apps/avaliacao_fisica/__pycache__/*
+academia/apps/avaliacao_fisica/migrations/*
 academia/apps/categories/__pycache__/*
 academia/apps/categories/migrations/*

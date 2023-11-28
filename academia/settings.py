@@ -41,6 +41,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'plano.apps.planoConfig',
+    'instrutor.apps.instrutorConfig',
+    'cliente.apps.clienteConfig',
+    'agendamento.apps.agendamentoConfig',
+    'exercicio.apps.exercicioConfig',
+    'treino.apps.treinoConfig',
 ]
 
 MIDDLEWARE = [
