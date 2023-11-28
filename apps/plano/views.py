@@ -1,16 +1,10 @@
 from django.shortcuts import render
+from .models import plano
+from rest_framework import viewsets
+from .serializer import planoSerializer
 
 # Create your views here.
 
-from django.urls import path, include
-from . import views
-from rest_framework import routers
-
-app_name = 'plano'
-
-router = routers.DefaultRouter()
-router.register('', views.planoViewSet, basename='plano')
-
-urlpatterns = [
-    path('', include(router.urls) )
-]
+class planoViewSet(viewsets.ModelViewSet):
+    queryset = plano.objects.all()
+    serializer_class = planoSerializer 
