@@ -19,15 +19,26 @@ class agendamento(models.Model):
     def __str__(self):
         return self.first_name
     
-class agendamentos(models.Model):
+class agendamentoinstrutor(models.Model):
     agendamento = models.ForeignKey(agendamento, on_delete=models.CASCADE)
     instrutor = models.ForeignKey(instrutor, on_delete=models.CASCADE)
-    cliente = models.ForeignKey(cliente, on_delete=models.CASCADE)
-    
+
     class Meta:
-        verbose_name = 'Agendamento'
-        verbose_name_plural = 'Agendamentos'
+        verbose_name = 'Instrutor'
+        verbose_name_plural = 'Instrutores'
         ordering =['id']
 
     def __str__(self):
-        return self.agendamento.name 
+        return self.instrutor.name
+    
+class agendamentocliente(models.Model):
+    agendamento = models.ForeignKey(agendamento, on_delete=models.CASCADE)
+    cliente = models.ForeignKey(cliente, on_delete=models.CASCADE)
+
+    class Meta:
+        verbose_name = 'Cliente'
+        verbose_name_plural = 'Clientes'
+        ordering =['id']
+
+    def __str__(self):
+        return self.cliente.name
