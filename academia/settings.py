@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'plano.apps.planoConfig',
     'avaliacao.apps.avaliacaoConfig',
+    'cliente.apps.clienteConfig',
     'instrutor.apps.instrutorConfig',
 ]
 
