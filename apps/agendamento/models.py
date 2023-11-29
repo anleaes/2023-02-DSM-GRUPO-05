@@ -19,7 +19,7 @@ class agendamento(models.Model):
     def __str__(self):
         return self.first_name
     
-class agendamentoinstrutor(models.Model):
+class agendamentos(models.Model):
     agendamento = models.ForeignKey(agendamento, on_delete=models.CASCADE)
     instrutor = models.ForeignKey(instrutor, on_delete=models.CASCADE)
     cliente = models.ForeignKey(cliente, on_delete=models.CASCADE)
