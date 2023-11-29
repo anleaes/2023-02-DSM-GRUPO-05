@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'plano.apps.planoConfig',
     'avaliacao.apps.avaliacaoConfig',
     'instrutor.apps.instrutorConfig',
+    'agendamento.apps.agendamentoConfig',
 ]
 
 MIDDLEWARE = [
