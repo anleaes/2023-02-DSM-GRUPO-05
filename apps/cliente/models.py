@@ -29,7 +29,7 @@ class cliente(models.Model):
 
 
 
-class clientavaliacao(models.Model):
+class clienteavaliacao(models.Model):
     cliente = models.ForeignKey(cliente, on_delete=models.CASCADE)
     avaliacao = models.ForeignKey(avaliacao, on_delete=models.CASCADE)
 

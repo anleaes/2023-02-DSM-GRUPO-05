@@ -12,7 +12,7 @@ class clienteavaliacaoSerializer(serializers.ModelSerializer):
         model = clienteavaliacao
         fields = '__all__'
 
-class clienteplanooSerializer(serializers.ModelSerializer):
+class clienteplanoSerializer(serializers.ModelSerializer):
     class Meta:
         model = clienteplano
         fields = '__all__'

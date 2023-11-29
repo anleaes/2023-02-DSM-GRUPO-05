@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'plano.apps.planoConfig',
     'avaliacao.apps.avaliacaoConfig',
     'cliente.apps.clienteConfig',
-    'instrutor.apps.instrutorConfig',
+    #'instrutor.apps.instrutorConfig',
 ]
 
 MIDDLEWARE = [
