@@ -1,4 +1,4 @@
-from .models import agendamento, agendamentos
+from .models import agendamento, agendamentoinstrutor, agendamentocliente
 from rest_framework import serializers
 
 class agendamentoSerializer(serializers.ModelSerializer):
@@ -6,7 +6,12 @@ class agendamentoSerializer(serializers.ModelSerializer):
         model = agendamento
         fields = '__all__'
         
-class agendamentosSerializer(serializers.ModelSerializer):
+class agendamentoinstrutorSerializer(serializers.ModelSerializer):
     class Meta:
-        model = agendamentos
+        model = agendamentoinstrutor
+        fields = '__all__'
+
+class agendamentoclienteSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = agendamentocliente
         fields = '__all__'
