@@ -1,3 +1,4 @@
+from .models import instrutor
 from rest_framework import serializers
 
 class instrutorSerializer(serializers.ModelSerializer):

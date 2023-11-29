@@ -22,5 +22,5 @@ urlpatterns = [
     path('plano/', include('plano.urls', namespace='plano')),
     path('avaliacao/', include('avaliacao.urls', namespace='avaliacao')),
     path('cliente/', include('cliente.urls', namespace='cliente')),
-    #path('instrutor/', include('instrutor.urls', namespace='instrutor')),
+    path('instrutor/', include('instrutor.urls', namespace='instrutor')),
 ]
