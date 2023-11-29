@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'avaliacao.apps.avaliacaoConfig',
     'cliente.apps.clienteConfig',
     'instrutor.apps.instrutorConfig',
+    'agendamento.apps.agendamentoConfig',
 ]
 
 MIDDLEWARE = [
