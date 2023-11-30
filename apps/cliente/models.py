@@ -16,8 +16,8 @@ class cliente(models.Model):
         ('O', 'Outro'),
     )
     genero = models.CharField('Genero', max_length=1, choices=GENDER_CHOICES)
-    cliente_avaliacao = models.ManyToManyField(avaliacao, through='clienteavaliacao', blank=True)
-    cliente_plano = models.ManyToManyField(plano, through='clienteplano', blank=True)
+    cliente_avaliacao = models.ManyToManyField(avaliacao)
+    cliente_plano = models.ManyToManyField(plano)
 
     class Meta:
         verbose_name = 'cliente'
@@ -25,7 +25,7 @@ class cliente(models.Model):
         ordering =['id']
 
     def __str__(self):
-        return self.first_name
+        return self.primeiro_nome
 
 
 
@@ -39,7 +39,7 @@ class clienteavaliacao(models.Model):
         ordering =['id']
 
     def __str__(self):
-        return self.avaliacao.name
+        return self.peso
     
 class clienteplano(models.Model):
     cliente = models.ForeignKey(cliente, on_delete=models.CASCADE)
@@ -51,4 +51,4 @@ class clienteplano(models.Model):
         ordering =['id']
 
     def __str__(self):
-        return self.plano.name
+        return self.name

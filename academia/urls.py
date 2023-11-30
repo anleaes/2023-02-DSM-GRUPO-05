@@ -22,8 +22,10 @@ urlpatterns = [
     path('plano/', include('plano.urls', namespace='plano')),
     path('avaliacao/', include('avaliacao.urls', namespace='avaliacao')),
     path('cliente/', include('cliente.urls', namespace='cliente')),
+    path('cliente_avaliacao/', include('cliente.urls', namespace='cliente_avaliacao')),
+    path('cliente_plano/', include('cliente.urls', namespace='cliente_plano')),
     path('instrutor/', include('instrutor.urls', namespace='instrutor')),
     path('agendamento/', include('agendamento.urls', namespace='agendamento')),
-    path('agendamentoinstrutor/', include('agendamentoinstrutor.urls', namespace='agendamentoinstrutor')),
-    path('agendamentocliente/', include('agendamentocliente.urls', namespace='agendamentocliente')),
+    path('agendamentoinstrutor/', include('agendamento.urls', namespace='agendamento_instrutor')),
+    path('agendamentocliente/', include('agendamento.urls', namespace='agendamento_cliente')),
 ]

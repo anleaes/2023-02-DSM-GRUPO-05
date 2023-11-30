@@ -17,7 +17,7 @@ class agendamento(models.Model):
         ordering =['id']
 
     def __str__(self):
-        return self.first_name
+        return self.data
     
 class agendamentoinstrutor(models.Model):
     agendamento = models.ForeignKey(agendamento, on_delete=models.CASCADE)
@@ -29,7 +29,7 @@ class agendamentoinstrutor(models.Model):
         ordering =['id']
 
     def __str__(self):
-        return self.instrutor.name
+        return self.primeiro_nome
     
 class agendamentocliente(models.Model):
     agendamento = models.ForeignKey(agendamento, on_delete=models.CASCADE)
@@ -41,4 +41,4 @@ class agendamentocliente(models.Model):
         ordering =['id']
 
     def __str__(self):
-        return self.cliente.name
+        return self.primeiro_nome

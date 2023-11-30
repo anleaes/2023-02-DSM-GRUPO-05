@@ -6,8 +6,8 @@ app_name = 'agendamento'
 
 router = routers.DefaultRouter()
 router.register('', views.agendamentoViewSet, basename='agendamento')
-router.register('', views.agendamentoinstrutorViewSet, basename='Instrutor')
-router.register('', views.agendamentoclienteViewSet, basename='Cliente')
+router.register('', views.agendamentoinstrutorViewSet, basename='agendamentoinstrutor')
+router.register('', views.agendamentoclienteViewSet, basename='agendamentocliente')
 
 urlpatterns = [
     path('', include(router.urls) )
