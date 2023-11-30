@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'nivel.apps.nivelConfig',
     'plano.apps.planoConfig',
+    'cliente.apps.clienteConfig',
 ]
 
 MIDDLEWARE = [
