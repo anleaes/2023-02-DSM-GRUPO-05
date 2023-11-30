@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'nivel.apps.nivelConfig',
+    'plano.apps.planoConfig',
 ]
 
 MIDDLEWARE = [
