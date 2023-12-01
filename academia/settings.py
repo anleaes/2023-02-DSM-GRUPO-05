@@ -44,13 +44,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'nivel.apps.nivelConfig',
     'plano.apps.planoConfig',
-<<<<<<< HEAD
     'avaliacao.apps.avaliacaoConfig',
     'instrutor.apps.instrutorConfig',
     'exercicio.apps.exercicioConfig',
-=======
-    'cliente.apps.clienteConfig',
->>>>>>> ae5edea4aefe8ddfe3b4be76c8b18f6be576ac92
 ]
 
 MIDDLEWARE = [
