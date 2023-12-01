@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'nivel.apps.nivelConfig',
     'plano.apps.planoConfig',
-    'instrutor.apps.instrutorConfig',
+    'cliente.apps.clienteConfig',
     'exercicio.apps.exercicioConfig',
 ]
 
