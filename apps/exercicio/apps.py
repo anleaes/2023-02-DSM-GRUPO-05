@@ -1,7 +1,7 @@
 from django.apps import AppConfig
 
 
-class exerciciosConfig(AppConfig):
+class exercicioConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'exercicios'
+    name = 'exercicio'
     verbose_name = 'exercicios'
