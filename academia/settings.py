@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'plano.apps.planoConfig',
     'cliente.apps.clienteConfig',
     'exercicio.apps.exercicioConfig',
+    'treino.apps.treinoConfig',
 ]
 
 MIDDLEWARE = [
