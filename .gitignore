@@ -8,3 +8,5 @@ academia/apps/instrutor/__pycache__/*
 academia/apps/instrutor/migrations/*
 academia/apps/plano/__pycache__/*
 academia/apps/plano/migrations/*
+academia/apps/nivel/__pycache__/*
+academia/apps/nivel/migrations/*
