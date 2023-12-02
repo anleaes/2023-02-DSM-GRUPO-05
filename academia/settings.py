@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'exercicio.apps.exercicioConfig',
     'treino.apps.treinoConfig',
     'instrutor.apps.instrutorConfig',
+    'agendamento.apps.agendamentoConfig',
 ]
 
 MIDDLEWARE = [
