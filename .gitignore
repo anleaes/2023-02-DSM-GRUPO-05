@@ -14,3 +14,5 @@ apps/treino/__pycache__/*
 apps/treino/migrations/*
 apps/instrutor/__pycache__/*
 apps/instrutor/migrations/*
+apps/agendamento/__pycache__/*
+apps/agendamento/migrations/*
