@@ -4,8 +4,6 @@ apps/avaliacao/__pycache__/*
 apps/avaliacao/migrations/*
 apps/cliente/__pycache__/*
 apps/cliente/migrations/*
-apps/instrutor/__pycache__/*
-apps/instrutor/migrations/*
 apps/plano/__pycache__/*
 apps/plano/migrations/*
 apps/nivel/__pycache__/*
@@ -14,3 +12,5 @@ apps/exercicio/__pycache__/*
 apps/exercicio/migrations/*
 apps/treino/__pycache__/*
 apps/treino/migrations/*
+apps/instrutor/__pycache__/*
+apps/instrutor/migrations/*
