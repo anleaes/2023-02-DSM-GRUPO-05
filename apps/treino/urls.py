@@ -6,7 +6,7 @@ app_name = 'treino'
 
 router = routers.DefaultRouter()
 router.register('', views.treinoViewSet, basename='treino')
-router.register('', views.treinoexerciciokViewSet, basename='treinoexercicio')
+router.register('', views.treinoexercicioViewSet, basename='treinoexercicio')
 
 urlpatterns = [
     path('', include(router.urls) )
